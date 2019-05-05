@@ -6,7 +6,9 @@ Assume Suitable data set of 100 numeric values. The Hash Function is h(x)=x mod 
 ------> Here we have to perform Extendible hashing where g varied from 2-5 and size of bucket is 6.Extendible hashing is an approach which is dynamic i.e. it allows insertions and deletions to occur without resulting in poor performance after many occurrences of these operations. In my solution I had maded a class bucket which can contain 6 keys and  a hash class which has an array list with the directory names and each of these directories have reference to the object of bucket.
 
 
-# Technology Stack : Problem Solved In Net-Beans IDE V8.2,Using Java JDK 8.
+# Technology Stack :
+Problem Solved In Net-Beans IDE V8.2,Using Java JDK 8.
+
 # Classes And Functions:
 # Classes-
 1.	extendiable	
@@ -29,6 +31,7 @@ a.	make-bucket:called to initialize the bucket with suitable flags.
 b.	displaybucket:displays each data of bucket.
 c.	additem:this method actually adds the data in bucket.
 
-# Key Functionality: This project aims on working of extendiable hashing and how large data can be handled easily with this type of hashing.
+# Key Functionality: 
+This project aims on working of extendiable hashing and how large data can be handled easily with this type of hashing.
 
 
